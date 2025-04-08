@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA V</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/estilos.css">
+    <link rel="stylesheet" href="./src/CSS/responsivo.css">
+</head>
+<body>
+    <main class="Personagens">
+        <div class="personagem selecionado">
+            <picture>
+                <source srcset="./src/imagens/michael-desktop.png" media="(min-width: 768px)">
+                <img src="./src/Imagens/michael-mobile.png" alt="Personagem Michel">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Michael De Santa</h2>
+                <p class="descricao">
+                    Michael De Santa é um ex-assaltante de bancos, ele vive sob um acordo com o FBI, em uma mansão em Los Santos, tentando levar uma vida "normal" com sua família disfuncional. Apesar da aposentadoria, ele acaba voltando ao crime, o que reacende conflitos do passado e o envolve em novas enrascadas com seus antigos parceiros Trevor e Franklin.
+                </p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/trevor-desktop.png" media="(min-width: 768px)">
+                <img src="./src/Imagens/trevor-mobile.png" alt="Personagem Trevor">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Trevor</h2>
+                <p class="descricao">
+                    Trevor Philips é um ex-militar e antigo parceiro de crimes de Michael. Impulsivo, violento e imprevisível, Trevor vive em Blaine County e comanda sua própria empresa criminosa, a Trevor Philips Enterprises. Quando descobre que Michael está vivo, ele se envolve novamente no mundo do crime, trazendo caos por onde passa.
+                </p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/franklin-desktop.png" media="(min-width: 768px)">
+                <img src="./src/Imagens/franklin-mobile.png" alt="Personagem Franklin">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Franklin</h2>
+                <p class="descricao">
+                    Franklin Clinton é um dos protagonistas de GTA V. Jovem ambicioso de Los Santos, ele trabalha como recuperador de carros para uma concessionária e busca uma vida melhor fora do crime de rua. Ao conhecer Michael, vê uma chance de crescer no mundo do crime organizado e se envolve em grandes golpes ao lado dele e de Trevor.
+                </p>
+            </div>
+        </div>
+
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao michael selecionado">
+                <img src="./src/Imagens/michael-botao.png" alt="Ícone Michael">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao trevor">
+                <img src="./src/Imagens/trevor-botao.png" alt="Ícone Trevor">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao franklin">
+                <img src="./src/Imagens/franklin-botao.png" alt="Ícone Franklin">
+            </button>
+        </li>
+    </ul>
+
+<script src="./src/JS/index.js"></script>
+
+</body>
+
+</html>
