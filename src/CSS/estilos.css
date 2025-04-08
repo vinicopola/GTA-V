@@ -97,9 +97,9 @@ main .personagem .imagem {
 }
 
 .botoes .botao.trevor.selecionado {
-    box-shadow: 0 0 10px #9747FF;
+    box-shadow: 0 0 10px #b99800;
 }
 
 .botoes .botao.franklin.selecionado {
-    box-shadow: 0 0 10px #FFA947;
+    box-shadow: 0 0 10px #1ea300;
 }
